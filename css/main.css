@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(100, 100, 246);
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: 300px auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.block {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 1em;
+}
+
+
+.fa-sharp {
+    color: #000;
+}
